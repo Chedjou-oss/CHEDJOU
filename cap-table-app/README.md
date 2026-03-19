@@ -12,7 +12,6 @@ Application frontend pour gérer les actionnaires et les émissions d’actions 
 - [Mock API](#mock-api)
 - [Tests](#tests)
 - [Storybook](#storybook)
-- [Vidéo explicative](#vidéo-explicative)
 - [Améliorations possibles](#améliorations-possibles)
 
 ## Description
@@ -127,10 +126,6 @@ npm test
 ## Storybook
 
 Voir tous les composants et le design system ici : [Storybook public](https://storybook-static-gpunzp61p-chedjou-oss-projects.vercel.app)
-
-## Vidéo explicative
-
-Voir la démo et l’explication du projet : [Lien vidéo](https://lien-video)
 
 ## Améliorations possibles
 
