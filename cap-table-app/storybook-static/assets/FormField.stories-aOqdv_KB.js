@@ -1,0 +1,7 @@
+import{a as e,n as t}from"./chunk-BneVvdWh.js";import{a as n}from"./iframe-BisW84Gp.js";import{t as r}from"./jsx-runtime-Bwgqq9F4.js";import{n as i,t as a}from"./FormField-D2tf5mv9.js";var o,s,c,l,u,d;t((()=>{o=e(n(),1),i(),s=r(),c={title:`UI/FormField`,component:a},l=()=>{let[e,t]=(0,o.useState)(``);return(0,s.jsx)(a,{label:`Name`,value:e,onChange:e=>t(e.target.value)})},u=()=>{let[e,t]=(0,o.useState)(``);return(0,s.jsx)(a,{label:`Email`,value:e,onChange:e=>t(e.target.value),error:!0,helperText:`Invalid email`})},l.__docgenInfo={description:``,methods:[],displayName:`Default`},u.__docgenInfo={description:``,methods:[],displayName:`Error`},l.parameters={...l.parameters,docs:{...l.parameters?.docs,source:{originalSource:`() => {
+  const [value, setValue] = useState('');
+  return <FormField label="Name" value={value} onChange={e => setValue(e.target.value)} />;
+}`,...l.parameters?.docs?.source}}},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`() => {
+  const [value, setValue] = useState('');
+  return <FormField label="Email" value={value} onChange={e => setValue(e.target.value)} error helperText="Invalid email" />;
+}`,...u.parameters?.docs?.source}}},d=[`Default`,`Error`]}))();export{l as Default,u as Error,d as __namedExportsOrder,c as default};
